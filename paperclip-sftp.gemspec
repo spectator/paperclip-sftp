@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Paperclip::Sftp::VERSION
 
-  gem.add_dependency "paperclip", "~> 3.0.0"
+  gem.add_dependency "paperclip", "~> 3.1.0"
   gem.add_dependency "net-sftp",  "~> 2.0.5"
 
   gem.add_development_dependency "minitest",        "~> 3.3.0"
