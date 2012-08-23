@@ -32,7 +32,7 @@ You can define these options globally, enable this storage for specific environm
 Running tests
 -------------
 
-All tests are live so in order to run them you need to setup local (or remote) SFTP server. That will take at most 5 minutes on either MacOS or Linux. Connection is defined in `test/test_helper.rb` if you need to change it.
+All tests are live so in order to run them you need to setup local SFTP server. That will take at most 5 minutes on either MacOS or Linux. Connection is defined in `test/test_helper.rb` if you need to change it.
 
 Contributing
 ------------
