@@ -8,20 +8,24 @@ Paperclip SFTP is Secure File Transfer Protocol storage for [Paperclip](https://
 Installation
 ------------
 
-    gem 'paperclip-sftp', '~> 1.0.0'
+```ruby
+gem 'paperclip-sftp', '~> 1.0.0'
+```
 
 Usage
 -----
 
-    class User < ActiveRecord::Base
-      has_attached_file :avatar,
-        storage: :sftp,
-        sftp_options: {
-          host: "sftp.example.com",
-          user: "user",
-          password: "password"
-        }
-    end
+```ruby
+class User < ActiveRecord::Base
+  has_attached_file :avatar,
+    storage: :sftp,
+    sftp_options: {
+      host: "sftp.example.com",
+      user: "user",
+      password: "password"
+    }
+end
+```
 
 You can define these options globally, enable this storage for specific environments, etc. Please see [Paperclip](https://github.com/thoughtbot/paperclip) github page for more details.
 
