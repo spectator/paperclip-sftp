@@ -1,4 +1,5 @@
 [![Dependency Status](https://gemnasium.com/spectator/paperclip-sftp.png?travis)](https://gemnasium.com/spectator/paperclip-sftp)
+[![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/spectator/paperclip-sftp)
 
 Paperclip SFTP
 ==============
