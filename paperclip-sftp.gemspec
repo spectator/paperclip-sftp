@@ -18,7 +18,7 @@ Gem::Specification.new do |gem|
   gem.required_ruby_version = ">= 1.9.2"
 
   gem.add_dependency "paperclip", ">= 3.2.0"
-  gem.add_dependency "net-sftp",  "~> 2.0.5"
+  gem.add_dependency "net-sftp",  ">= 2.0.5"
 
   gem.add_development_dependency "minitest"
   gem.add_development_dependency "minitest_should"
