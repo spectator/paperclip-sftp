@@ -5,7 +5,7 @@ module Paperclip
     module Sftp
 
       # SFTP storage expects a hash with following options:
-      # :host, :user, :password.
+      # :host, :user, :password, :port.
       #
       def self.extended(base)
         begin
@@ -26,7 +26,8 @@ module Paperclip
         @sftp ||= Net::SFTP.start(
           @sftp_options[:host],
           @sftp_options[:user],
-          password: @sftp_options[:password]
+          password: @sftp_options[:password],
+          port: @sftp_options[:port]
         )
       end
 
