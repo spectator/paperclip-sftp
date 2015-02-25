@@ -1,6 +1,6 @@
 require "test_helper"
 
-class UnitTest < MiniTest::Should::TestCase
+class UnitTest < Minitest::Should::TestCase
   setup do
     @file = fixture_file("ruby.png")
   end

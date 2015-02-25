@@ -31,6 +31,8 @@ Paperclip.interpolates(:work_dir) do |attachment, style|
   File.expand_path(File.join(File.dirname(__FILE__), 'tmp'))
 end
 
+ActiveRecord::Base.raise_in_transactional_callbacks = true
+
 class Dummy < ActiveRecord::Base
   include Paperclip::Glue
 
@@ -42,4 +44,6 @@ class Dummy < ActiveRecord::Base
       user: "spectator",
       password: "password"
     }
+
+  do_not_validate_attachment_file_type :avatar
 end
