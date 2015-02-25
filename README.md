@@ -24,9 +24,10 @@ class User < ActiveRecord::Base
   has_attached_file :avatar,
     storage: :sftp,
     sftp_options: {
-      host: "sftp.example.com",
-      user: "user",
-      password: "password"
+      host: 		"sftp.example.com",
+      user: 		"user",
+      password: "password",
+      port: 		22
     }
 end
 ```
