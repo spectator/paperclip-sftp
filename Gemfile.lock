@@ -1,0 +1,64 @@
+GIT
+  remote: git://github.com/citrus/minitest_should.git
+  revision: 6a91771ac4edad877f72317f1166ce90ba37bd40
+  ref: 6a91771
+  specs:
+    minitest_should (0.3.2)
+
+PATH
+  remote: .
+  specs:
+    paperclip-sftp (1.0.4)
+      net-sftp (>= 2.0.5)
+      paperclip (>= 3.2.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (4.2.0)
+      activesupport (= 4.2.0)
+      builder (~> 3.1)
+    activerecord (4.2.0)
+      activemodel (= 4.2.0)
+      activesupport (= 4.2.0)
+      arel (~> 6.0)
+    activesupport (4.2.0)
+      i18n (~> 0.7)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
+    arel (6.0.0)
+    builder (3.2.2)
+    climate_control (0.0.3)
+      activesupport (>= 3.0)
+    cocaine (0.5.5)
+      climate_control (>= 0.0.3, < 1.0)
+    i18n (0.7.0)
+    json (1.8.2)
+    mime-types (2.4.3)
+    minitest (5.5.1)
+    net-sftp (2.1.2)
+      net-ssh (>= 2.6.5)
+    net-ssh (2.9.2)
+    paperclip (4.2.1)
+      activemodel (>= 3.0.0)
+      activesupport (>= 3.0.0)
+      cocaine (~> 0.5.3)
+      mime-types
+    rake (10.4.2)
+    sqlite3 (1.3.10)
+    thread_safe (0.3.4)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activerecord
+  minitest
+  minitest_should!
+  paperclip-sftp!
+  rake
+  sqlite3
