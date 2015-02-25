@@ -27,7 +27,7 @@ class User < ActiveRecord::Base
       host: 		"sftp.example.com",
       user: 		"user",
       password: "password",
-      port: 		"22", 
+      port: 		22
     }
 end
 ```
