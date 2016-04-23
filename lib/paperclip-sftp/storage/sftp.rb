@@ -28,7 +28,7 @@ module Paperclip
           @sftp_options[:user],
           password: @sftp_options[:password],
           port: @sftp_options[:port],
-          keys: [@sftp_options[:keys]]
+          keys: @sftp_options[:keys]
         )
       end
 
