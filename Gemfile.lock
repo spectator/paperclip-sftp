@@ -8,7 +8,7 @@ GIT
 PATH
   remote: .
   specs:
-    paperclip-sftp (1.0.4)
+    paperclip-sftp (1.0.5)
       net-sftp (>= 2.0.5)
       paperclip (>= 3.2.0)
 
@@ -36,11 +36,11 @@ GEM
       climate_control (>= 0.0.3, < 1.0)
     i18n (0.7.0)
     json (1.8.2)
-    mime-types (2.4.3)
+    mime-types (2.6.2)
     minitest (5.5.1)
     net-sftp (2.1.2)
       net-ssh (>= 2.6.5)
-    net-ssh (2.9.2)
+    net-ssh (3.0.1)
     paperclip (4.2.1)
       activemodel (>= 3.0.0)
       activesupport (>= 3.0.0)
@@ -62,3 +62,6 @@ DEPENDENCIES
   paperclip-sftp!
   rake
   sqlite3
+
+BUNDLED WITH
+   1.10.6
